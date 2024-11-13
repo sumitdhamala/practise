@@ -8,7 +8,7 @@ class AppResponse<T> {
 
   AppResponse.loading() : status = Status.loading;
   AppResponse.compleated() : status = Status.compleated;
-  AppResponse.erroe() : status = Status.error;
+  AppResponse.error() : status = Status.error;
 
   @override
   String toString() {
